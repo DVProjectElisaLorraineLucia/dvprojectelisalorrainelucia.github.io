@@ -1,5 +1,20 @@
+main {
+	margin-top:58px;
+}
+.navbar-nav {
+	margin-top:2px;
+}
+.nav-link:hover, .nav-link:focus {
+	color:#FFF !important;
+}
+.anchor_spacer {
+	display:block;
+  height:58px; /*same height as header*/
+  margin-top:-58px; /*same height as header*/
+  visibility:hidden;
+}
 .jumbotron {
-	padding-top:76px;
+	padding-top:18px;
 	padding-bottom:18px;
 }
 iframe {
@@ -10,11 +25,6 @@ iframe {
 	padding-top:15px;
 }
 .spacer {
-	margin-top:40px;
+	padding-top:40px;
 }
-.navbar-nav {
-	margin-top:2px;
-}
-.nav-link:hover, .nav-link:focus {
-	color:#FFF !important;
-}
+

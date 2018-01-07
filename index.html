@@ -23,25 +23,25 @@
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#">Par jour</a>
+            <a class="nav-link" href="#chart_jour">Par jour</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Par heure</a>
+            <a class="nav-link" href="#chart_heure">Par heure</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Par impact</a>
+            <a class="nav-link" href="#chart_impact">Par impact</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Par sexe</a>
+            <a class="nav-link" href="#chart_sexe">Par sexe</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Par tranche d'âge</a>
+            <a class="nav-link" href="#chart_age">Par tranche d'âge</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Par gravité</a>
+            <a class="nav-link" href="#chart_gravite">Par gravité</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Par localisation géographique</a>
+            <a class="nav-link" href="#chart_geo">Par localisation géographique</a>
           </li>
         </ul>
       </div>
@@ -59,6 +59,8 @@
 
       <div class="container">
         <!-- Example row of columns -->
+        
+        <div class="anchor_spacer" id="chart_jour"></div>
         <div class="row">
           <div class="col-md-12">
           	<h2>Répartition des accidents par jours de l'année</h2>
@@ -69,6 +71,7 @@
           </div>
         </div>
         
+        <div class="anchor_spacer" id="chart_heure"></div>
         <div class="row alter">
           <div class="col-md-12">
           	<h2>Répartition des accidents par heures de la journée <strong style="color:red;">(il faudra copier le code du line chart dans chart_line.html à la place du code du calendar que j'ai mis dedans...)</strong></h2>
@@ -79,6 +82,7 @@
           </div>
         </div>
         
+        <div class="anchor_spacer" id="chart_impact"></div>
         <div class="row spacer">
           <div class="col-md-6">
             <iframe src="./chart_chocs.html" 
@@ -90,8 +94,9 @@
             <h2>Répartition des accidents par points d'impact sur le véhicule</h2>
             <p></p>
           </div>
-        </div>        
+        </div>
         
+        <div class="anchor_spacer" id="chart_sexe"></div>
         <div class="row alter">
           <div class="col-md-6">
             <iframe src="./chart_sex.html" 
@@ -106,6 +111,7 @@
           </div>
         </div>
         
+        <div class="anchor_spacer" id="chart_age"></div>
         <div class="row spacer">
           <div class="col-md-5">
             <iframe src="./chart_pie_hommes.html" 
@@ -119,6 +125,7 @@
           </div>
         </div>
         
+        <div class="anchor_spacer" id="chart_gravite"></div>
         <div class="row alter">
           <div class="col-md-5">
             <iframe src="./chart_donut.html" 
@@ -132,6 +139,7 @@
           </div>
         </div>
         
+        <div class="anchor_spacer" id="chart_geo"></div>
         <div class="row spacer">
           <div class="col-md-7">
             <iframe src="./chart_map.html" 
