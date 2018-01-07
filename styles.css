@@ -27,4 +27,6 @@ iframe {
 .spacer {
 	padding-top:40px;
 }
-
+em.copy {
+	font-size:10px;
+}
