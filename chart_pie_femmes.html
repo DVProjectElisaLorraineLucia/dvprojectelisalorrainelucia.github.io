@@ -22,7 +22,7 @@ var svg = d3.select("svg"),
     radius = Math.min(width, height) / 2,
     g = svg.append("g").attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
 
-var color = d3.scaleOrdinal(["#D1CFE2", "#9CADCE", "#7EC4CF", "#52B2CF"]);
+var color = d3.scaleOrdinal(["#A5402D", "#F15156", "#FFC07F", "#FFCF99"]);
 
 var pie = d3.pie()
     .sort(null)
@@ -36,7 +36,7 @@ var label = d3.arc()
     .outerRadius(radius - 40)
     .innerRadius(radius - 40);
 
-d3.csv("prepared_usagers_hommes", function(d) {
+d3.csv("prepared_usagers_femmes", function(d) {
   d.valeur = +d.valeur;
   return d;
 }, function(error, data) {

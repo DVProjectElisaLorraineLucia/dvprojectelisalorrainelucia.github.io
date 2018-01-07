@@ -30,3 +30,7 @@ iframe {
 em.copy {
 	font-size:10px;
 }
+.detail_pie {
+	text-align:center;
+	font-weight:bold;
+}
