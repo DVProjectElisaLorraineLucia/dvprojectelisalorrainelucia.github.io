@@ -4,7 +4,7 @@
 <style>
   #pie { 
   font-family:"Arial";
-  font-size:11px;
+  font-size:12px;
   }
   #pie svg{
     position: absolute;
@@ -207,7 +207,7 @@ d3.json("trajet_accident.json", function(data_json){
         .attr("x", (pieWidth / 2)-385)             
         .attr("y", 0 - 175)
         .attr("text-anchor", "middle")  
-        .style("font-size", "13px") 
+        .style("font-size", "14px") 
         .style("font-weight", "bold")  
         .text("Répartition des accidents (ici "+ nb_accidents +" accidents au total), par heure (ici "+ heureActuelle.substring(0,2) + "h" + heureActuelle.substring(2,4) +"), en fonction du trajet réalisé");
   
